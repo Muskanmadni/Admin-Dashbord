@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import {Protectedroute} from "@/app/fonts/components/page";
+import Protectedroute from "@/app/fonts/components/page";
 import { client } from '@/sanity/lib/client';
 import Swal from 'sweetalert2';
 
