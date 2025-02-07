@@ -43,7 +43,7 @@ export default function AdminDashboard() {
             ));
             Swal.fire("Success", `Order status updated to ${newStatus}`, "success");
         } catch (error) {
-            Swal.fire( "Failed to update order" ,"error");
+            Swal.fire( "Failed to update order");
         }
     }
 
