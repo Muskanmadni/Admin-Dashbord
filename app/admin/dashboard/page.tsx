@@ -44,6 +44,7 @@ export default function AdminDashboard() {
             Swal.fire("Success", `Order status updated to ${newStatus}`, "success");
         } catch (error) {
             Swal.fire( "Failed to update order");
+            console.error(error);
         }
     }
 
@@ -66,6 +67,7 @@ export default function AdminDashboard() {
             Swal.fire('Deleted!', 'Order successfully deleted', "success");
         } catch (error) {
             Swal.fire("Error", "Failed to delete order", "error");
+            console.error(error);
         }
     }
 
